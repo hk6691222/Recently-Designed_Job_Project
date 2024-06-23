@@ -1,0 +1,269 @@
+footer{
+    width: 100%;
+    height: 30vh;
+    position: relative;
+    bottom: 0;
+    background: linear-gradient(to right, #00093c, #2d0b00);
+    color: #fff;
+    padding: 100px 0 30px;
+    border-top-left-radius: 125px;
+    font-size: 13px;
+    line-height: 20px;
+}
+.row{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.col{
+    flex-basis: 25%;
+    padding: 10px;
+}
+
+.logo1{
+    width: 60px;
+    /* margin-right: 10rem; */
+    /* margin-left: 25px; */
+    margin-top: 0.5rem;
+    /* margin-bottom: 80px; */
+    font-size: 5rem;
+    font-weight: bold;
+    font-family: 'Black Ops One', system-ui;
+}
+.one1{
+    font-size: 5.6rem;
+    font-family: 'Philosopher', sans-serif;
+}
+
+.col h3{
+    width: fit-content;
+    margin-bottom: 40px;
+    position: relative;
+}
+.email-id{
+    width: fit-content;
+    border-bottom: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+ul li{
+    list-style: none;
+    margin-bottom: 12px;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+form{
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 50px;
+}
+form .far{
+    font-size: 18px;
+    margin-right: 10px;
+}
+form input{
+    width: 100%;
+    background: transparent;
+    color: #ccc;
+    border: 0;
+    outline: none;
+}
+form button{
+    background: transparent;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+form button .fas{
+    font-size: 16px;
+    color: #ccc;
+}
+
+/* .department-link:nth-child(1){
+    top: 2rem;
+    right: 26rem;
+}
+.department-link:nth-child(2){
+    top: 42rem;
+    right: 28rem;
+}
+.department-link:nth-child(3){
+    bottom: 32rem;
+    right: 50rem;
+}
+.department-link:nth-child(4){
+    bottom: 32rem;
+    left: 52rem;
+}
+.department-link:nth-child(5){
+    bottom: 15rem;
+    left: 9rem;
+}
+.department-link:nth-child(6){
+    top: 32rem;
+    left: 49rem;
+} */
+
+.slide{
+    position: absolute;
+    transition: opacity 1s;
+}
+
+.slide img{
+    opacity: 1;
+    object-fit: cover;
+}
+
+.slide-1 img{
+    width: 35rem;
+    height: 73rem;
+    /* margin-top: 2rem; */
+    margin-left: 2rem;
+}
+.slide-2 img{
+    width: 30rem;
+    height: 73rem;
+    margin-left: 52rem;
+}
+.slide-3 img{
+    width: 45rem;
+    height: 73rem;
+    margin-left: 106rem;
+}
+.slide-4 img{
+    width: 50rem;
+    margin-left: 110rem;
+}
+.slide-5 img{
+    width: 50rem;
+    margin-left: 115rem;
+}
+.slide-6 img{
+    width: 50rem;
+    margin-left: 120rem;
+}
+.slide-7 img{
+    width: 50rem;
+    margin-left: 125rem;
+}
+.slide-8 img{
+    width: 50rem;
+    margin-left: 130rem;
+}
+.slide-9 img{
+    width: 50rem;
+    margin-left: 135rem;
+}
+.slide-10 img{
+    width: 50rem;
+    margin-left: 140rem;
+}
+
+/* .arrows-visibility{
+    opacity: 0;
+}
+
+.control:hover{
+    opacity: 1;
+} */
+
+/* .control{
+    position: absolute;
+    top: 0;
+    width: 15vw;
+    height: 100vh;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 100;
+    transition: opacity 0.5s linear;
+} */
+
+/* .left-arrow{
+    left: 0;
+}
+
+.right-arrow{
+    right: 0;
+} */
+
+/* .line{
+    width: 0.2rem;
+    height: 10rem;
+    background-color: #ddd5d5;
+} */
+
+/* .line-1{
+    transform: rotate(20deg) translateY(0.35rem);
+}
+.line-2{
+    transform: rotate(-20deg) translateY(-0.35rem);
+}
+.line-3{
+    transform: rotate(-20deg) translateY(0.35rem);
+}
+.line-4{
+    transform: rotate(20deg) translateY(-0.35rem);
+} */
+
+/* .play-pause{
+    cursor: pointer;
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.play-pause i{
+    color: #fff;
+    font-size: 50px;
+} */
+
+
+<div class="slides">
+            <div class="slide slide-1">
+                <img src="images/rocket4.jpg">
+            </div>
+            <div class="slide slide-2">
+                <img src="images/rocket16.jpg">
+            </div>
+            <div class="slide slide-3">
+                <img src="images/rocket5.png">
+            </div>
+            <div class="slide slide-4">
+                <img src="images/rocket6.png">
+            </div>
+            <div class="slide slide-5">
+                <img src="images/rocket7.jpg">
+            </div>
+            <div class="slide slide-6">
+                <img src="images/rocket8.jpg">
+            </div>
+            <div class="slide slide-7">
+                <img src="images/rocket9.jpg">
+            </div>
+            <div class="slide slide-8">
+                <img src="images/rocket10.jpg">
+            </div>
+            <div class="slide slide-9">
+                <img src="images/rocket11.png">
+            </div>
+            <div class="slide slide-10">
+                <img src="images/rocket12.jpg">
+            </div>
+        </div>
+
+        <!-- <div class="play-pause">
+                <i class="fas fa-play"></i>
+            </div> -->
